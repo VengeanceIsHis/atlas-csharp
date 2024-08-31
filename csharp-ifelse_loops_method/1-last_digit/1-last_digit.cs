@@ -9,11 +9,11 @@ class Program
         int lastdigit = number % 10;
         Console.Write("The last digit of" + " ");
         Console.Write(number + " " + "is" + " " + lastdigit + " ");
-        if (number < 6 && number != 0)
+        if (lastdigit < 6 && lastdigit != 0)
         {
             Console.WriteLine("and is less than 6 and not 0");
         }
-        else if (number == 0)
+        else if (lastdigit == 0)
         {
             Console.WriteLine("and is 0");
         }
