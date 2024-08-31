@@ -6,8 +6,8 @@ class Program
     {
         for (int i = 0; i < 99; i++)
         {
-
-            Console.WriteLine(i + " " + "=" + " " + i.ToString("X"));
+            string hex = "0x" + i.ToString("X");
+            Console.WriteLine(i + " " + "=" + " " + hex);
         }
     }
 }
