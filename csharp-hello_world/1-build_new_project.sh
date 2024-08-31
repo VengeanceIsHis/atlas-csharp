@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 PROJECT_DIR="1-new_project"
 
 if [ ! -d "$PROJECT_DIR" ]; then
