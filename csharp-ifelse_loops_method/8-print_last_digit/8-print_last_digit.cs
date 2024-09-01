@@ -1,9 +1,8 @@
 using System;
 
-class Number
 {
-    public static int PrintLastDigit(int number)
     {
-        return math.abs(number % 10);
+        return Math.Abs(number % 10);
     }
 }
+
