@@ -8,7 +8,11 @@ class Program
         {
             for (int j = i + 1; j < 10; j++)
             {
-                Console.WriteLine($"{i} {j}");
+                if (i == 8 && j == 9)
+                {
+                    Console.WriteLine("89");
+                }
+                Console.Write($"{i}{j}, ");
             }
         }
     }
