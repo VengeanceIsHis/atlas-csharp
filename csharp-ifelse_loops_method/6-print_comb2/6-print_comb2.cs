@@ -12,7 +12,10 @@ class Program
                 {
                     Console.WriteLine("89");
                 }
+                else
+                {
                 Console.Write($"{i}{j}, ");
+                }
             }
         }
     }
