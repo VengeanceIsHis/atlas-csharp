@@ -1,16 +1,21 @@
 using System;
-using System.Connections.Generic;
+using System.Collections.Generic;
 
 class Array
 {
     public static void Reverse(int[] array)
     {
-        int[] reversed = new int[array.Length];
-        int j = 0;
-        for (int i = array.Length; i > 0; i--)
+        if (array == null)
         {
-            reversed[j++] = array[i];
+            Console.WriteLine();
         }
-        return reversed;
+        else
+        {
+        for (int i = array.Length - 1; i >= 0; i--)
+        {
+        Console.Write(array[i] + " ");
+        }
+        Console.WriteLine();
+    }
     }
 }
