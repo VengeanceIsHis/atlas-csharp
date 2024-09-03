@@ -4,7 +4,6 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <PackageReference Include="Microsoft.NETCore.App.Ref" Version="8.0.0" />
   </PropertyGroup>
 
 </Project>
