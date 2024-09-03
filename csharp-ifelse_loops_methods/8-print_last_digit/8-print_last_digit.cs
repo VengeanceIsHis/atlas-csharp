@@ -3,7 +3,7 @@ using System;
 class Number
 {
     {
-        return Math.Abs(number % 10;
+        return Math.Abs(number % 10);
     }
 }
 
