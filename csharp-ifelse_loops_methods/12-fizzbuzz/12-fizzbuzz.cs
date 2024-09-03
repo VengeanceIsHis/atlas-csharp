@@ -18,7 +18,7 @@ class Program
             {
                 if (i == 100)
                 {
-                    Console.Write("Buzz")
+                    Console.Write("Buzz");
                 }
                 else
                 {
