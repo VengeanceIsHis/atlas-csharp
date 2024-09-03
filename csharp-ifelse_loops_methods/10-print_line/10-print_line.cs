@@ -6,6 +6,12 @@ class Line
     {
         for (int i = 0; i < length; i++)
         {
+            if (length == 0)
+            {
+                Console.WriteLine();
+            }
+            else
+            {
             if (i == length - 1)
             {
             Console.WriteLine("_");
@@ -13,6 +19,7 @@ class Line
             else
             {
                 Console.Write("_");
+            }
             }
         }
     }
