@@ -16,7 +16,14 @@ class Program
             }
             else if (i % 5 == 0)
             {
+                if (i == 100)
+                {
+                    Console.Write("Buzz")
+                }
+                else
+                {
                 Console.Write("Buzz ");
+                }
             }
             else 
             {
