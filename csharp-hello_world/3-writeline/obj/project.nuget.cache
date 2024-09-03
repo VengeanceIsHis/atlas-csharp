@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VAnwAcBDaqs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\default.LAPTOP-P6GOO2OC\\atlas-csharp\\csharp-hello_world\\3-writeline\\3-writeline.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\default.LAPTOP-P6GOO2OC\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\default.LAPTOP-P6GOO2OC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\default.LAPTOP-P6GOO2OC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\default.LAPTOP-P6GOO2OC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}
