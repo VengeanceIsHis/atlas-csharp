@@ -1,9 +1,9 @@
 using System;
 
-Class Number
+class Number
 {
     {
-        return number % 10;
+        return Math.Abs(number % 10;
     }
 }
 
