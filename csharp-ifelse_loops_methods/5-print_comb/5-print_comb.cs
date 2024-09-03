@@ -6,18 +6,10 @@ class Program
     {
         for (int i = 0; i < 100; i++)
         {
-            if (i < 10)
-            {
-                Console.Write("0" + i + ", ");
-            }
-            else if (i == 99)
-            {
-                Console.WriteLine("99");
-            }
-            else
-            {
-                Console.Write(i + ", ");
-            }
+           
+            string formattedNumber = i < 10 ? $"0{i}" : i.ToString();
+            
+            Console.Write(formattedNumber + (i < 99 ? ", " : "\n"));
         }
     }
 }
