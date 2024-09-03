@@ -6,7 +6,7 @@ class Line
     {
         for (int i = 0; i < length; i++)
         {
-            if (length == 0)
+            if (length <= 0)
             {
                 Console.WriteLine();
             }
