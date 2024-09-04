@@ -21,7 +21,10 @@ class Array
             {
                 Console.Write("i")
             }
+            else
+            {
             Console.Write(i + " ");
+            }
         }
         }
         int[] result = numbers.ToArray();
