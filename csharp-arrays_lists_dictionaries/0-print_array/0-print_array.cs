@@ -8,7 +8,7 @@ class Array
         List<int> numbers = new List<int>();
         if (size >= 0)
         {
-        for (int i = 0; i < size + 1; i++)
+        for (int i = 0; i < size; i++)
         {
             if (size == 0)
             {
@@ -17,7 +17,11 @@ class Array
             else
             {
             numbers.Add(i);
-            Console.Write(i);
+            if (i == size - 1)
+            {
+                Console.Write("i")
+            }
+            Console.Write(i + " ");
         }
         }
         int[] result = numbers.ToArray();
