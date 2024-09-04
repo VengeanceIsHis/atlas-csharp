@@ -17,7 +17,10 @@ class Array
             {
                 Console.Write(array[i]);
             }
+            else
+            {
         Console.Write(array[i] + " ");
+        }
         }
         Console.WriteLine();
     }
