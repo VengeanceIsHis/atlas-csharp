@@ -12,7 +12,8 @@ class Array
         {
             if (size == 0)
             {
-                Console.WriteLine("$");
+                numbers.Add(null);
+                Console.WriteLine();
             }
             else
             {
