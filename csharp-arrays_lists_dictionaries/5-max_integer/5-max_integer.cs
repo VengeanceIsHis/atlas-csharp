@@ -9,7 +9,7 @@ class List
         int number = 0;
         if (MyList.Count == 0)
         {
-            Console.Write("List is empty");
+            Console.WriteLine("List is empty");
             return -1;
         }
         for (int i = 0; i < MyList.Count; i++)
