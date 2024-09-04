@@ -6,12 +6,14 @@ class List
 {
     public static List<int> CreatePrint(int size)
     {
+        List<int> temp = new List<int>();
+
         if (size < 0)
         {
             Console.Write("Size cannot be negative");
-            return;
+            return temp;
         }
-        List<int> temp = new List<int>();
+
 
         for (int i = 0; i < size; i++)
         {
