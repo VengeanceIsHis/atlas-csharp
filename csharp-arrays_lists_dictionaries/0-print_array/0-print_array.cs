@@ -12,7 +12,7 @@ class Array
         {
             if (size == 0)
             {
-                break;
+                Console.WriteLine("$");
             }
             else
             {
