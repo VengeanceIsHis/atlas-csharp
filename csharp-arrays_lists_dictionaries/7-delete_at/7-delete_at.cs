@@ -11,7 +11,7 @@ class List
             Console.WriteLine("Index is out of range");
             return myList;
         }
-        myList.RemoveAt(index);
+        myList.Remove(index);
         return myList;
     }
 }
