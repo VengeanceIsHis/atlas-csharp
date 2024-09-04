@@ -9,6 +9,10 @@ class Dictionary
         string bestkey = null;
         int number = 0;
 
+        if (myList.Count == 0)
+        {
+            return "None";
+        }
         foreach (var obj in myList)
         {
             if (obj.Value > number)
