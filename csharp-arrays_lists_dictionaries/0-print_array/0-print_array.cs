@@ -19,7 +19,7 @@ class Array
             numbers.Add(i);
             if (i == size - 1)
             {
-                Console.Write("i");
+                Console.WriteLine(i);
             }
             else
             {
