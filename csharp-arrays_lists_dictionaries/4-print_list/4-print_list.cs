@@ -15,7 +15,10 @@ class List
             {
                 Console.Write(i);
             }
+            else
+            {
             Console.Write(i + " ");
+            }
         }
         Console.WriteLine();
         return temp;
