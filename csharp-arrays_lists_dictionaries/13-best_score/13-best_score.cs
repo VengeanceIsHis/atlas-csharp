@@ -7,7 +7,7 @@ class Dictionary
     public static string BestScore(Dictionary<string, int> myList)
     {
         string bestkey = null;
-        int number = 0;
+        int number = int.MinValue;
 
         if (myList.Count == 0)
         {
