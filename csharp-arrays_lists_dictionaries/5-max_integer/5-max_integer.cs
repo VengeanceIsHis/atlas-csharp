@@ -7,7 +7,7 @@ class List
     public static int MaxInteger(List<int> MyList)
     {
         int number = 0;
-        if (!MyList)
+        if (MyList.Count == 0)
         {
             Console.Write("List is empty");
             return -1;
