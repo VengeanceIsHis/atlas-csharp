@@ -8,7 +8,7 @@ class List
     {
         if (size < 0)
         {
-            Console.Write("Size cannot be negative")
+            Console.Write("Size cannot be negative");
             return;
         }
         List<int> temp = new List<int>();
