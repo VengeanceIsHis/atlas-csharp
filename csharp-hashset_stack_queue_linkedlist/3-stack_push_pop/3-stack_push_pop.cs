@@ -18,7 +18,7 @@ class Mystack
         if (aStack.Contains("search"))
         {
             while(aStack.Count > 0);
-            int item = aStack.Pop();
+            string item = aStack.Pop();
             if (item == "search")
             {
                 break;
