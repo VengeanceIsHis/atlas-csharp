@@ -6,7 +6,7 @@ class LList
 {
     public static LinkedList<int> CreatePrint(int size)
     {
-        LinkedList<int> result = new LinkedList<int();
+        LinkedList<int> result = new LinkedList<int>();
         for (int i = 0; i < size; i++)
         {
             Console.WriteLine(i);
