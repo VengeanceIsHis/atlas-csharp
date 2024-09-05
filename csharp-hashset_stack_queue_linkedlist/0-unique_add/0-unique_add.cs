@@ -6,7 +6,7 @@ class List
 {
     public static int Sum(List<int> myList)
     {
-        result = myList[0];
+        int result = myList[0];
 
         for (int i = 1; i < myList.Count; i++)
         {
