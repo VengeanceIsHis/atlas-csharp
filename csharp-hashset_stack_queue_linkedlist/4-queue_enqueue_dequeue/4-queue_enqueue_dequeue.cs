@@ -22,7 +22,7 @@ class MyQueue
         {
             
             Console.WriteLine($"Queue contains \"{search}\": True");
-            while (aStack.Count > 0)
+            while (aQueue.Count > 0)
             {
                 
                 string item = aQueue.Dequeue();
