@@ -7,10 +7,20 @@ class List
     public static int Sum(List<int> myList)
     {
         int result = myList[0];
+        list<int> temp = new list<int>;
+        temp[0] = myList[0];
 
         for (int i = 1; i < myList.Count; i++)
         {
+            if (temp.Contains(myList[i]))
+            {
+                continue;
+            }
+            else
+            {
             result += myList[i];
+            temp.Add(myList[i]);
+            }
         }
         return result;
     }
