@@ -17,7 +17,7 @@ class MyStack
 
         if (aStack.Contains(search))
         {
-            Console.WriteLine($"Stack contains\"{search}\": True");
+            Console.WriteLine($"Stack contains \"{search}\": True");
             while (aStack.Count > 0)
             {
                 string item = aStack.Pop();
