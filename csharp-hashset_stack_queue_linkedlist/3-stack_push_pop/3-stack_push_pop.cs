@@ -18,14 +18,13 @@ class MyStack
         if (aStack.Contains(search))
         {
             Console.WriteLine("Stack contains " + search + ": True");
-            for (int i = 0; i < aStack.Count; i++)
-            { 
+            while (stack.Count > 0)
+            {
+                string item = aStack.Pop();
                 if (item == search)
                 {
-                    string item = aStack.Pop();
                     break;
                 }
-                string item = aStack.Pop();
             }
         }
         else
