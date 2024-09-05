@@ -6,7 +6,7 @@ class LList
 {
     public static int Length(LinkedList<int> myLList)
     {
-        int count;
+        int count = 0;
         foreach (int obj in myLList)
         {
             count += 1;
