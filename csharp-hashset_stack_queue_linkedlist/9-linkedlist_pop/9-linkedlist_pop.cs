@@ -6,6 +6,10 @@ class LList
 {
     public static int Pop(LinkedList<int> myLList)
     {
+        if (myLList.Count == 0)
+        {
+            return -1;
+        }
         LinkedListNode<int> current = myLList.First;
         int value = current.Value;
         myLList.Remove(current);
