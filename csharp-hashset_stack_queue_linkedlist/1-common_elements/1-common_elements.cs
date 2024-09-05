@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 class List
 {
-    public static List<int> CommonElements(List<int> list1, list<int> list2)
+    public static List<int> CommonElements(List<int> list1, List<int> list2)
     {
         List<int> temp = new List<int>();
         for (int i = 0; i < list1.Count; i++)
