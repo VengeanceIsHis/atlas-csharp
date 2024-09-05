@@ -10,7 +10,7 @@ class LList
         for (int i = 0; i < size; i++)
         {
             Console.WriteLine(i);
-            result.Add(i);
+            result.AddLast(i);
         }
         return result;
     }
