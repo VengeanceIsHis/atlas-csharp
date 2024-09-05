@@ -10,7 +10,7 @@ class List
 
         for (int i = 1; i < myList.Count; i++)
         {
-            result += myList;
+            result += myList[i];
         }
         return result;
     }
