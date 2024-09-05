@@ -6,7 +6,7 @@ class LList
 {
     public static int FindNode(LinkedList<int> myLList, int value)
     {
-        LinkedListNode<int> current = linkedList.First;
+        LinkedListNode<int> current = myLList.First;
         int position = 0;
         foreach (int obj in myLList)
         {
