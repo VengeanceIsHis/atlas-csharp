@@ -25,9 +25,9 @@ class Mystack
                     break;
                 }
             }
+        }
         astack.push(newItem);
 
         return Astack;
     }
-}
 }
