@@ -6,6 +6,10 @@ class List
 {
     public static int Sum(List<int> myList)
     {
+        if (myList.Count == 0)
+        {
+            return 0;
+        }
         int result = myList[0];
         List<int> temp = new List<int>();
         temp.Add(myList[0]);
