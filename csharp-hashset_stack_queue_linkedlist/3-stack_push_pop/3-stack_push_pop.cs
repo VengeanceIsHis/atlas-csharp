@@ -17,14 +17,15 @@ class Mystack
 
         if (aStack.Contains("search"))
         {
-            while(aStack.Count > 0);
-            string item = aStack.Pop();
-            if (item == "search")
+            for (int i = 0; i < aStack.Count; i++)
             {
-                break;
+                string item = aStack.Pop();
+                if (item == "search")
+                {
+                    break;
+                }
             }
-        }
-        Astack.push(newItem);
+        astack.push(newItem);
 
         return Astack;
     }
