@@ -17,7 +17,7 @@ class MyStack
 
         if (aStack.Contains(search))
         {
-            Console.WriteLine("Stack contains " + search + ": True");
+            Console.WriteLine($"Stack contains\"{search}\": True");
             while (aStack.Count > 0)
             {
                 string item = aStack.Pop();
@@ -29,7 +29,7 @@ class MyStack
         }
         else
         {
-            Console.Write("Stack contains " + search + ": False");
+            Console.WriteLine($"Stack contains\"{search}\": False");
         }
         aStack.Push(newItem);
 
