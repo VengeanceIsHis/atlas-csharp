@@ -29,6 +29,7 @@ class List
                 temp.Add(list2[i]);
             }
         }
+        temp.Sort();
         return temp;
     }
 }
