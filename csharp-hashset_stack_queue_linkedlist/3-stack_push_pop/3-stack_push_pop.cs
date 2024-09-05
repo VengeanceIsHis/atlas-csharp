@@ -26,8 +26,8 @@ class Mystack
                 }
             }
         }
-        astack.push(newItem);
+        aStack.push(newItem);
 
-        return Astack;
+        return aStack;
     }
 }
