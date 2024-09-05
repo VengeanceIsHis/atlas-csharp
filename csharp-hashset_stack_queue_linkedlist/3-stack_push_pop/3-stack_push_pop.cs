@@ -13,7 +13,10 @@ class MyStack
         {
             Console.WriteLine("Stack is empty");
         }
+        if (aStack.Count > 0)
+        {
         Console.WriteLine("Top item: " + aStack.Peek());
+        }
 
         if (aStack.Contains(search))
         {
