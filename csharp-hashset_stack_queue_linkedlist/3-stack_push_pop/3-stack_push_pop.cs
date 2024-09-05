@@ -11,7 +11,7 @@ class Mystack
         Console.WriteLine("Number of items: " + aStack.Count);
         if (aStack.isEmpty)
         {
-            Console.WriteLine("Stack is empty")
+            Console.WriteLine("Stack is empty");
         }
         Console.WriteLine("Top item: " + aStack.peek());
 
