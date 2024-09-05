@@ -9,7 +9,7 @@ class List
         List<int> temp = new List<int>();
         for (int i = 0; i < list1.Count; i++)
         {
-            if (list2.Contains(list1[i]))
+            if (list2.Contains(list1[i]) || list1.Contains(list2[i]))
             {
                 continue;
             }
