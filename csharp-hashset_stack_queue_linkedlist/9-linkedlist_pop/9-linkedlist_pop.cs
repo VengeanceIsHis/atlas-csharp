@@ -9,6 +9,7 @@ class LList
         LinkedListNode<int> current = myLList.First;
         int value = current.Value;
         myLList.Remove(current);
+        return value;
     }
-    return value;
+    
 }
