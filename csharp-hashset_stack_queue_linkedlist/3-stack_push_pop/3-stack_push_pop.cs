@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 
-class Mystack
+class MyStack
 {
     public static Stack<string> Info(Stack<string> aStack, string newItem, string search)
     {
@@ -26,7 +26,7 @@ class Mystack
                 }
             }
         }
-        aStack.push(newItem);
+        aStack.Push(newItem);
 
         return aStack;
     }
