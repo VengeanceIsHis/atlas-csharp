@@ -8,7 +8,7 @@ class List
     {
         int result = myList[0];
         List<int> temp = new List<int>();
-        temp.Add = myList[0];
+        temp.Add(myList[0]);
 
         for (int i = 1; i < myList.Count; i++)
         {
