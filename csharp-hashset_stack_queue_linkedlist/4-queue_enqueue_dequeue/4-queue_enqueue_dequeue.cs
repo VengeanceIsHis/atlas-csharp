@@ -15,16 +15,12 @@ class MyQueue
         {
             Console.WriteLine("Queue is empty");
         }
-
         aQueue.Enqueue(newItem);
-
         if (aQueue.Contains(search))
         {
-            
             Console.WriteLine($"Queue contains \"{search}\": True");
             while (aQueue.Count > 0)
             {
-                
                 string item = aQueue.Dequeue();
                 if (item == search)
                 {
@@ -34,7 +30,7 @@ class MyQueue
         }
         else
         {
-            Console.WriteLine($"Stack contains \"{search}\": False");
+            Console.WriteLine($"Queue contains \"{search}\": False");
         }
         return aQueue;
     }
