@@ -6,7 +6,7 @@ class LList
 {
     public static int Pop(LinkedList<int> myLList)
     {
-        current = myLList.First;
+        LinkedListNode<int> current = myLList.First;
         myLList.Remove(current);
     }
 }
