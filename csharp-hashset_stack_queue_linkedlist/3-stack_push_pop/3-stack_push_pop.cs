@@ -15,16 +15,21 @@ class MyStack
         }
         Console.WriteLine("Top item: " + aStack.Peek());
 
-        if (aStack.Contains("search"))
+        if (aStack.Contains(search))
         {
+            Console.WriteLine("Stack contains " + search + ": True")
             for (int i = 0; i < aStack.Count; i++)
             {
                 string item = aStack.Pop();
-                if (item == "search")
+                if (item == search)
                 {
                     break;
                 }
             }
+        }
+        else
+        {
+            Console.Write("Stack contains " + search + ": False")
         }
         aStack.Push(newItem);
 
