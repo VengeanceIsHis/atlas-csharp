@@ -9,7 +9,7 @@ class Mystack
         Stack<int> tempStack = new Stack<int>();
 
         Console.WriteLine("Number of items: " + aStack.Count);
-        if (aStack.isEmpty)
+        if (aStack.Count == 0)
         {
             Console.WriteLine("Stack is empty");
         }
