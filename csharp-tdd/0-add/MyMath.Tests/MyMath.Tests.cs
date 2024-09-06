@@ -10,6 +10,12 @@ public class Tests
     [Test]
     public void Test1()
     {
-        Assert.Pass();
+        int a = 3;
+        int b = 4;
+        int expected = 7;
+
+        int result = Operations.Add(a, b)
+
+        Assert.AreEqual(expected, result);
     }
 }
