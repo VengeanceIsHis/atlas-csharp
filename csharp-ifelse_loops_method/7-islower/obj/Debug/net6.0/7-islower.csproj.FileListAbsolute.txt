@@ -1,0 +1,5 @@
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\7-islower\obj\Debug\net6.0\7-islower.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\7-islower\obj\Debug\net6.0\7-islower.AssemblyInfoInputs.cache
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\7-islower\obj\Debug\net6.0\7-islower.AssemblyInfo.cs
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\7-islower\obj\Debug\net6.0\7-islower.csproj.CoreCompileInputs.cache
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\7-islower\obj\Debug\net6.0\7-islower.sourcelink.json

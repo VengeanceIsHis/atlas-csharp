@@ -1,0 +1,15 @@
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\bin\Debug\net6.0\1-last_digit.exe
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\bin\Debug\net6.0\1-last_digit.deps.json
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\bin\Debug\net6.0\1-last_digit.runtimeconfig.json
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\bin\Debug\net6.0\1-last_digit.dll
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\bin\Debug\net6.0\1-last_digit.pdb
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\obj\Debug\net6.0\1-last_digit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\obj\Debug\net6.0\1-last_digit.AssemblyInfoInputs.cache
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\obj\Debug\net6.0\1-last_digit.AssemblyInfo.cs
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\obj\Debug\net6.0\1-last_digit.csproj.CoreCompileInputs.cache
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\obj\Debug\net6.0\1-last_digit.sourcelink.json
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\obj\Debug\net6.0\1-last_digit.dll
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\obj\Debug\net6.0\refint\1-last_digit.dll
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\obj\Debug\net6.0\1-last_digit.pdb
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\obj\Debug\net6.0\1-last_digit.genruntimeconfig.cache
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-ifelse_loops_method\1-last_digit\obj\Debug\net6.0\ref\1-last_digit.dll

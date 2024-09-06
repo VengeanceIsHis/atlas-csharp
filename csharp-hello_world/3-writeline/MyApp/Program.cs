@@ -2,10 +2,22 @@
 
 class Program
 {
-	static void Main(string[] args)
-	{
-		string str = "C# (pronounced \"See Sharp\") is a simple, modern, object-oriented, and type-safe programming language. C# has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers.";
-		str = str.Substring(49, 15) + " " + str.Substring(80, 11) + " " + str.Substring(119, 2) + " " + str.Substring(102, 2);
-		Console.WriteLine(str);
+    static void Main(string[] args)
+    {
+        Random rndm = new Random();
+        int number = rndm.Next(-10, 10);
+        
+        if (number > 0)
+        {
+            Console.WriteLine(number + " " + "is positive")
         }
+        else if (number < 0)
+        {
+            Console.WriteLine(number + " " + "is negative")
+        }
+        else
+        {
+            Console.WriteLine(number + " " + "is zero")
+        }
+    }
 }
