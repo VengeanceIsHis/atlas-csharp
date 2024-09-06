@@ -14,7 +14,7 @@ class LList
         {
             if (current.Value < n)
             {
-                if current.Prev == null
+                if (current.Prev == null)
             }
             i++;
             current = current.Next;
