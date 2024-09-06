@@ -101,6 +101,10 @@ public class Tests
         int expected = 30;
 
 
-        for (int i = 0; i < )
+        for (int i = 0; i < 5; i++)
+        {
+            int result = Operations.Add(a, b);
+            Assert.AreEqual(expected, result);
+        }
     }
 }
