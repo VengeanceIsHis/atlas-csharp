@@ -14,7 +14,7 @@ class LList
             {
                 return current.Value;
             }
-            Console.Write(current.Value)
+            i++;
             current = current.Next;
         }
         return 0;
