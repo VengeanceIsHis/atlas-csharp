@@ -23,7 +23,7 @@ public class Tests
         int result = Operations.Add(a, b);
 
 
-        Assert.AreEqual(expected, result);
+        Assert.That(result, Is.EqualTo(expected));
     }
 
 
@@ -38,7 +38,7 @@ public class Tests
         int result = Operations.Add(a, b);
 
 
-        Assert.that(expected, Is.EqualTo(result));
+        Assert.That(result, Is.EqualTo(expected));
     }
 
 
@@ -53,7 +53,7 @@ public class Tests
         int result = Operations.Add(a, b);
 
 
-        Assert.AreEqual(expected, result);
+        Assert.That(result, Is.EqualTo(expected));
     }
 
 
@@ -68,7 +68,7 @@ public class Tests
         int result = Operations.Add(a, b);
 
 
-        Assert.AreEqual(expected, result);
+        Assert.That(result, Is.EqualTo(expected));
     }
 
 
@@ -83,7 +83,7 @@ public class Tests
         int result = Operations.Add(a, b);
 
 
-        Assert.AreEqual(expected, result);
+        Assert.That(result, Is.EqualTo(expected));
     }
 
 
@@ -98,7 +98,7 @@ public class Tests
         int result = Operations.Add(a, b);
 
 
-        Assert.AreEqual(expected, result);
+        Assert.That(result, Is.EqualTo(expected));
     }
 
 
@@ -114,8 +114,8 @@ public class Tests
         int result2 = Operations.Add(a, b);
 
 
-        Assert.AreEqual(expected, result1);
-        Assert.AreEqual(expected, result2);
+        Assert.That(result1, Is.EqualTo(expected));
+        Assert.That(result2, Is.EqualTo(expected));
     }
 
 
@@ -132,7 +132,7 @@ public class Tests
         for (int i = 0; i < 5; i++)
         {
             int result = Operations.Add(a, b);
-            Assert.AreEqual(expected, result);
+            Assert.That(result, Is.EqualTo(expected));
         }
     }
 }
