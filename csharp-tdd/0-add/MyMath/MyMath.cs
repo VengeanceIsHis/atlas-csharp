@@ -5,8 +5,11 @@
         public static int Add(int a, int b)
         {
             /// <summary>
-            /// simply returns two integers
-            /// </summary>
+        /// Adds two integers.
+        /// </summary>
+        /// <param name="a">The first integer to add.</param>
+        /// <param name="b">The second integer to add.</param>
+        /// <returns>The sum of the two integers.</returns>
             return a + b;
         }
     }
