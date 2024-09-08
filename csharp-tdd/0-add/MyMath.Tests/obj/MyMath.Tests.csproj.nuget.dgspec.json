@@ -55,17 +55,11 @@
           "dependencies": {
             "Microsoft.CodeAnalysis": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[2.9.0, )"
             },
             "Microsoft.CodeAnalysis.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.3.2, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.8.0, )"
+              "version": "[2.9.0, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -75,21 +69,16 @@
             },
             "NUnit": {
               "target": "Package",
-              "version": "[3.14.0, )"
+              "version": "[3.13.0, )"
             },
             "NUnit.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.9.0, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[4.5.0, )"
+              "version": "[2.9.0, )"
             },
             "coverlet.collector": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[3.0.3, )"
             }
           },
           "imports": [
@@ -154,7 +143,11 @@
           "dependencies": {
             "Microsoft.CodeAnalysis": {
               "target": "Package",
-              "version": "[3.11.0, )"
+              "version": "[2.9.0, )"
+            },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "target": "Package",
+              "version": "[2.9.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -162,11 +155,18 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
             "NUnit.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.9.0, )"
+              "version": "[2.9.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.3, )"
             }
           },
           "imports": [
