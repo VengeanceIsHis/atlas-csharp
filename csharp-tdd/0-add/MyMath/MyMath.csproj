@@ -9,7 +9,7 @@
     <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="2.9.0" />
     <PackageReference Include="NUnit" Version="3.13.0" />
     <PackageReference Include="coverlet.collector" Version="3.0.3" />
-    <PackageReference Include="NUnit.Analyzers" Version="3.6.0">
+    <PackageReference Include="NUnit.Analyzers" Version="2.9.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
