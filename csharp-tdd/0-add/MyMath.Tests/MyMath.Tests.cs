@@ -38,7 +38,7 @@ public class Tests
         int result = Operations.Add(a, b);
 
 
-        Assert.AreEqual(expected, Is.EqualTo(result));
+        Assert.that(expected, Is.EqualTo(result));
     }
 
 
