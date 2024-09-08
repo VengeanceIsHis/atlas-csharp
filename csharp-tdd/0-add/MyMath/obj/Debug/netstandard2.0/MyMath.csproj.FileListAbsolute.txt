@@ -4,3 +4,9 @@ C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath\obj\Debug\
 C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.AssemblyInfo.cs
 C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.csproj.CoreCompileInputs.cache
 C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.sourcelink.json
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath\bin\Debug\netstandard2.0\MyMath.xml
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath\bin\Debug\netstandard2.0\MyMath.deps.json
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath\bin\Debug\netstandard2.0\MyMath.dll
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath\bin\Debug\netstandard2.0\MyMath.pdb
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.dll
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath\obj\Debug\netstandard2.0\MyMath.pdb

@@ -1,4 +1,11 @@
 is_global = true
+build_property.TargetFramework = netstandard2.0
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyMath
 build_property.ProjectDir = C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath\
 build_property.EnableComHosting = 

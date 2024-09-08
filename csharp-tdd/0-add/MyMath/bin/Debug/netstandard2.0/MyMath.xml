@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<root>
-  <element name="SampleElement">
-    <subelement>SampleValue</subelement>
-  </element>
-</root>
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyMath</name>
+    </assembly>
+    <members>
+    </members>
+</doc>
