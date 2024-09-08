@@ -1,4 +1,5 @@
-namespace MyMath.Tests;
+namespace MyMath.Tests
+{
 
 
 public class Tests
@@ -134,3 +135,4 @@ public class Tests
     }
 }
 
+}
