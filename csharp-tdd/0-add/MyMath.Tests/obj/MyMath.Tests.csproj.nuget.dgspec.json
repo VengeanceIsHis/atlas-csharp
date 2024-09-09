@@ -53,6 +53,10 @@
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
           "dependencies": {
+            "Humanizer.Core": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            },
             "Microsoft.CodeAnalysis": {
               "target": "Package",
               "version": "[3.7.0, )"
