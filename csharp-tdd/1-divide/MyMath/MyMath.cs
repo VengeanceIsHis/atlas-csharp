@@ -6,6 +6,10 @@ public class Matrix
 {
     public static int[,] Divide(int[,] matrix, int num)
     {
+        if (num == 0)
+        {
+            Console.WriteLine("Num cannot be 0");
+        }
         int rows = matrix.GetLength(0);
             int cols = matrix.GetLength(1);
 
@@ -18,9 +22,7 @@ public class Matrix
                     result[i, j] = matrix[i, j] / num;
                 }
             }
-
             return result;
     }
-
 }
 }
