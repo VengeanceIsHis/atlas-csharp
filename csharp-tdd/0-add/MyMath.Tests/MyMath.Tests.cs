@@ -24,6 +24,7 @@ public class Tests
 
 
         Assert.That(result, Is.EqualTo(expected));
+        Console.WriteLine("Test Run Successful");
     }
 
 
