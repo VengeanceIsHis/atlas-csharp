@@ -15,3 +15,9 @@ C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath.Tests\obj\
 C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath.Tests\obj\Debug\netcoreapp2.1\MyMath.Tests.dll
 C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath.Tests\obj\Debug\netcoreapp2.1\MyMath.Tests.pdb
 C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath.Tests\bin\Debug\netcoreapp2.1\MyMath.Tests.xml
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath.Tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath.Tests\bin\Debug\netcoreapp2.1\nunit.engine.dll
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath.Tests\bin\Debug\netcoreapp2.1\nunit.engine.api.dll
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath.Tests\bin\Debug\netcoreapp2.1\nunit.engine.core.dll
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-tdd\0-add\MyMath.Tests\bin\Debug\netcoreapp2.1\testcentric.engine.metadata.dll
