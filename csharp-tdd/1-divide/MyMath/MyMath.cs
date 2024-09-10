@@ -9,7 +9,7 @@ public class Matrix
     {
         if (num == 0)
         {
-            throw new ArgumentException("Num cannot be 0");
+           Console.WriteLine("Num cannot be 0");
         }
 
         else
