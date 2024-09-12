@@ -18,6 +18,10 @@ class List
             {
                 Console.Write("Error index out of range");
             }
+            catch (Exception ex)
+            {
+                Console.Write("Unexpected error");
+            }
             result++;
         }
     }
