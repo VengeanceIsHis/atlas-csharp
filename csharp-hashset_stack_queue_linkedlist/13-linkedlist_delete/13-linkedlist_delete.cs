@@ -15,6 +15,7 @@ class LList
             {
                 myLList.Remove(current);
             }
+            current = current.Next;
         }
     }
 }
