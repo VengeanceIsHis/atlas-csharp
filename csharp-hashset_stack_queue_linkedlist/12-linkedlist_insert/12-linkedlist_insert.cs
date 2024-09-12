@@ -9,7 +9,13 @@ class LList
     {
         LinkedListNode<int> current = myLList.First;
         LinkedListNode<int> result = null;
-        
+
+        if (current.Value >= n)
+        {
+            result = myLList.AddFirst(n);
+            return result;
+        }
+
         while (current != null)
         {
             if (current.Next == null || current.Next.Value > n)
@@ -18,7 +24,7 @@ class LList
                 break;
             }
             current = current.Next;
-            
+
         }
         return result;
     }
