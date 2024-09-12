@@ -10,7 +10,7 @@ class LList
 
         for (int i = 0; i < index; i++)
         {
-            if (current == null)
+            if (current == null || index < 0)
             {
                 break;
             }
