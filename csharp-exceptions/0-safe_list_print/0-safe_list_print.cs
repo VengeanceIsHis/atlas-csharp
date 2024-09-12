@@ -20,7 +20,7 @@ class List
             }
             catch (Exception ex)
             {
-                Console.Write("Unexpected error");
+                Console.Write($"Unexpected error: {ex.Message}");
             }
             result++;
         }
