@@ -10,8 +10,19 @@ class LList
 
         for (int i = 0; i < index; i++)
         {
+            if (current == null)
+            {
+                break;
+            }
             current = current.Next;
         }
-        myLList.Remove(current);
+        if (current == null)
+        {
+            return;
+        }
+        else
+        {
+            myLList.Remove(current);
+        }
     }
 }
