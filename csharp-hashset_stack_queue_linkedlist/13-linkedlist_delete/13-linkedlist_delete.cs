@@ -10,13 +10,13 @@ class LList
 
         for (int i = 0; i < index; i++)
         {
-            if (current == null)
+            if (current == null || index < 0)
             {
                 break;
             }
             current = current.Next;
         }
-        if (index < 0)
+        if (index < 0 || current == null)
         {
             return;
         }
