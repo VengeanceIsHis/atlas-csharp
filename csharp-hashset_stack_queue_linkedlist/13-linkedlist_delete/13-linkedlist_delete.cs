@@ -7,7 +7,6 @@ class LList
     public static void Delete(LinkedList<int> myLList, int index)
     {
         LinkedListNode<int> current = myLList.First;
-        LinkedListNode<int> result = null;
 
         for (int i = 0; i < index; i++)
         {
