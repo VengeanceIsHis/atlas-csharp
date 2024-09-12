@@ -1,23 +1,25 @@
 using System;
 using System.Collections.Generic;
+using System.Xml.XPath;
 
 
 class LList
 {
-    public static LinkedListNode<int> Insert(linkedList<int> myLList, int n)
+    public static LinkedListNode<int> Insert(LinkedList<int> myLList, int n)
     {
-        int i = 0;
         LinkedListNode<int> current = myLList.First;
-        LinkedListNode<int> new = new LinkedListNode<int>;
-        new.Value = n;
+        LinkedListNode<int> result = null;
+        
         while (current != null)
         {
-            if (current.Value < n)
+            if (current.Next == null || current.Next.Value > n)
             {
-                if (current.Prev == null)
+                result = myLList.AddAfter(current, n);
+                break;
             }
-            i++;
             current = current.Next;
+            
         }
+        return result;
     }
 }
