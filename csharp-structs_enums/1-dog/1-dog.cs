@@ -9,7 +9,7 @@ public enum Rating
 }
 
 
-public struct
+public struct Dog
 {
     public string name { get; set; }
     public float age { get; set; }
