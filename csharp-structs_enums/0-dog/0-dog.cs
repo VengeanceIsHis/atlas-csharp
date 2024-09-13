@@ -7,13 +7,3 @@ public enum Rating
     Great,
     Excellent
 }
-
-
-public struct
-{
-    public string name { get; set; }
-    public float age { get; set; }
-    public string owner { get; set; }
-    public Rating rating { get; set; }
-
-}
