@@ -18,7 +18,7 @@ class List
             }
             catch (DivideByZeroException)
             {
-                Console.WriteLine("Cannot divide by zero")
+                Console.WriteLine("Cannot divide by zero");
             }
             if (i >= list1.Count)
             {
