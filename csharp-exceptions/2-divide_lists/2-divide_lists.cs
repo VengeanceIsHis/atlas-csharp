@@ -7,6 +7,7 @@ class List
     public static List<int> Divide(List<int> list1, List<int> list2, int listLength)
     {
         List<int> temp = new List<int>();
+        int result = 0;
         for (int i = 0; i < listLength; i++)
         {
             try
@@ -17,7 +18,7 @@ class List
                     temp.Add(0);
                     continue;
                 }
-                int result = list1[i] / list2[i];
+                result = list1[i] / list2[i];
                 temp.Add(result); 
             }
             catch (DivideByZeroException)
