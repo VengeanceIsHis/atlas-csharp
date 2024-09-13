@@ -12,18 +12,16 @@ class List
         {
             try
             {
-                result = list1[i] / list2[i];
-                
+                if (i >= list1.Count)
+                {
+                    Console.WriteLine("Out of range");
+                    continue;
+                }
+                result = list1[i] / list2[i]; 
             }
             catch (DivideByZeroException)
             {
                 Console.WriteLine("Cannot divide by zero");
-            }
-            
-            if (i >= list1.Count)
-            {
-                Console.WriteLine("Out of range");
-                continue; 
             }
             finally
             {
@@ -31,9 +29,11 @@ class List
                 {
                     temp.Add(0);
                 }
+                else
+                {
                 temp.Add(result);
+                }
             }
-              
         }
         return temp;
     }
