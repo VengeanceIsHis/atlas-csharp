@@ -19,13 +19,14 @@ class List
             {
                 Console.WriteLine("Cannot divide by zero");
             }
+            
+            if (i >= list1.Count)
+            {
+                Console.WriteLine("Out of range");
+                continue; 
+            }
             finally
             {
-                if (i >= list1.Count)
-                {
-                    Console.WriteLine("Out of range");
-                    continue; 
-                }
                 if (list2[i] == 0)
                 {
                     temp.Add(0);
