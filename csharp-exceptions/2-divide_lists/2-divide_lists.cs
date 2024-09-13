@@ -7,7 +7,16 @@ class List
     public static List<int> Divide(List<int> list1, List<int> list2, int listLength)
     {
         List<int> temp = new List<int>();
-        for (int i = 0; i < listLength; i++)
+        int length;
+        if (listLength > list1.Count)
+        {
+            length = list1.Count;
+        }
+        if (listLength > list2.Count)
+        {
+            length = list2.Count;
+        }
+        for (int i = 0; i < length; i++)
         {
             try
             {
