@@ -34,6 +34,7 @@ class List
             }
 
         }
+        Console.WriteLine(temp[0] + temp[1] + temp[2]);
         return temp;
     }
 }
