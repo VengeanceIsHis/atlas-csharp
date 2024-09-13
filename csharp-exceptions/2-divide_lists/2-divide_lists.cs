@@ -17,10 +17,11 @@ class List
                     temp.Add(0);
                     continue;
                 }
-                else
+                else if (i < list2.Count)
                 {
                     int result = list1[i] / list2[i];
 
+                    
                     temp.Add(result);
                 }
             }
