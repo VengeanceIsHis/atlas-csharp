@@ -24,5 +24,6 @@ class List
             }
             result++;
         }
+        return result;
     }
 }
