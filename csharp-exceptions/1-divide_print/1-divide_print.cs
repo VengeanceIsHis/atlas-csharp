@@ -16,7 +16,7 @@ class Int
         }
         finally
         {
-            Console.WriteLine(a + " " + b + " " + result);
+            Console.WriteLine(a + " " + / + " " + b + " " + result);
         }
     }
 }
