@@ -5,12 +5,13 @@ class VectorMath
 {
     public static double[] Add(double[] vector1, double[] vector2)
     {
+        double[] result = new double[vector1.Length];
         if (vector1.Length != vector2.Length || vector1.Length < 2 || vector1.Length > 3)
         {
-            return -1;
+            result[0] = -1;
         }
 
-        double[] result = new double[vector1.Length];
+        
 
         for (int i = 0; i < vector1.Length; i++)
         {
