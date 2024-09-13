@@ -13,7 +13,7 @@ class VectorMath
 
         foreach (double component in vector)
         {
-            sum += component + component;
+            sum += component * component;
         }
 
         double magnitude = Math.Sqrt(sum);
