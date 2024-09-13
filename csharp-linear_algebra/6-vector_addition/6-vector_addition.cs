@@ -11,11 +11,12 @@ class VectorMath
             result[0] = -1;
         }
 
-        
-
+        else
+        {
         for (int i = 0; i < vector1.Length; i++)
         {
             result[i] = Math.Round(vector1[i] + vector2[i]);
+        }
         }
 
         return result;
