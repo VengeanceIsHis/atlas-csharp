@@ -12,15 +12,11 @@ class List
         {
             try
             {
-                Console.Write(myList[i]);
+                Console.WriteLine(myList[i]);
             }
-            catch (ArgumentOutOfRangeException ex)
+            catch ()
             {
                 Console.Write("Error index out of range");
-            }
-            catch (Exception ex)
-            {
-                Console.Write($"Unexpected error: {ex.Message}");
             }
             result++;
         }
