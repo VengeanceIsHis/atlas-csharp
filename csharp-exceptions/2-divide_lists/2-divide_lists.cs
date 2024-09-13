@@ -7,7 +7,6 @@ class List
     public static List<int> Divide(List<int> list1, List<int> list2, int listLength)
     {
         List<int> temp = new List<int>();
-        int result = 0;
         for (int i = 0; i < listLength; i++)
         {
             try
