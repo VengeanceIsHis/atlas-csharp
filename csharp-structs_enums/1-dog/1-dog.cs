@@ -11,17 +11,17 @@ public enum Rating
 
 public struct Dog
     {
-        public string Name { get; set; }
-        public float Age { get; set; }
-        public string Owner { get; set; }
-        public Rating Rating { get; set; }
+        public string name { get; set; }
+        public float age { get; set; }
+        public string owner { get; set; }
+        public Rating rating { get; set; }
 
-        public Dog(string name, float age, string owner, Rating rating)
+        public Dog(string name_str, float age_flo, string owner_str, Rating rating_str)
         {
-            Name = name;
-            Age = age;
-            Owner = owner;
-            Rating = rating;
+            name = name_str;
+            age = age_flo;
+            owner = owner_str;
+            rating = rating_str;
         }
 
 
