@@ -18,12 +18,12 @@ public struct Dog
 
     public Dog(string name, float age, string owner, Rating rating)
     {
-        Name = name;
-        Age = age;
-        Owner = owner;
-        Rating = rating;
+        name = name;
+        age = age;
+        owner = owner;
+        rating = rating;
     }
 
-    
+
 
 }
