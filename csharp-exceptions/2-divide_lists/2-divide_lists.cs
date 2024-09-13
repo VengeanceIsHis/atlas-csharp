@@ -8,19 +8,7 @@ class List
     {
         List<int> temp = new List<int>();
         int length = 0;
-        if (listLength > list1.Count)
-        {
-            length = list1.Count;
-        }
-        else if (listLength > list2.Count)
-        {
-            length = list2.Count;
-        }
-        else
-        {
-            length = listLength;
-        }
-        for (int i = 0; i < length; i++)
+        for (int i = 0; i < listLength; i++)
         {
             try
             {
