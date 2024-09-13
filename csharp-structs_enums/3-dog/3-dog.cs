@@ -25,7 +25,7 @@ public struct Dog
         }
 
 
-        public override string ToString()
+        public override void ToString()
         {
             Console.WriteLine($"Dog name: {name}");
             Console.WriteLine($"Age: {age}");
