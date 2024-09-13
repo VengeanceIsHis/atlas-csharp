@@ -16,7 +16,7 @@ class List
             }
             catch
             {
-                Console.Write("Error index out of range");
+                break;
             }
             result++;
         }
