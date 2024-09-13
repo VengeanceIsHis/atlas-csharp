@@ -19,7 +19,7 @@ class List
                     continue;
                 }
                 result = list1[i] / list2[i];
-                temp.Add(result); 
+                temp.Add(result);
             }
             catch (DivideByZeroException)
             {
@@ -27,14 +27,6 @@ class List
                 temp.Add(0);
                 continue;
             }
-                if (list2[i] == 0)
-                {
-                    temp.Add(0);
-                }
-                else
-                {
-                temp.Add(result);
-                }
         }
         return temp;
     }
