@@ -12,7 +12,7 @@ class Int
         }
         catch
         {
-            return;
+            Console.WriteLine(Cannot divide by zero);
         }
         finally
         {
