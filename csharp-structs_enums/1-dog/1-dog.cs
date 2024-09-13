@@ -16,12 +16,12 @@ public struct Dog
     public string owner { get; set; }
     public Rating rating { get; set; }
 
-    public Dog(string name, float age, string owner, Rating rating)
+    public Dog(string Name, float Age, string Owner, Rating score)
     {
         name = name;
         age = age;
         owner = owner;
-        rating = rating;
+        rating = score;
     }
 
 
