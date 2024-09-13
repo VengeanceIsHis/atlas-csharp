@@ -14,7 +14,6 @@ class List
                 if (i >= list1.Count || i >= list2.Count)
                 {
                     Console.WriteLine("Out of range");
-                    temp.Add(0);
                     continue;
                 }
                 else if (i < list2.Count)
