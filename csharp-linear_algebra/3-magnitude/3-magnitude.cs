@@ -17,6 +17,7 @@ class VectorMath
         }
 
         double magnitude = Math.Sqrt(sum);
+        magnitude = Math.Round(magnitude, 2);
 
         return magnitude;
     }
