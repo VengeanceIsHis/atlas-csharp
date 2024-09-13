@@ -1,7 +1,7 @@
 using System;
 
 
-class int
+class Int
 {
     public static void divide(int a, int b)
     {
