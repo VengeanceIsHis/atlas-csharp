@@ -7,9 +7,5 @@ namespace Enemies
     /// </summary>
     public class Zombie
     {
-        /// <summary>
-        /// Zombie specific data.
-        /// </summary>
-
     }
 }
