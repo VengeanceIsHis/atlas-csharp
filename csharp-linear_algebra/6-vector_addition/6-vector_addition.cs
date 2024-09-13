@@ -12,7 +12,7 @@ class VectorMath
 
         double[] result = new double[vector1.Length];
 
-        for (int i = 0; i < vector1.Length)
+        for (int i = 0; i < vector1.Length; i++)
         {
             result[i] = Math.Round(vector1[i] + vector2[i]);
         }
