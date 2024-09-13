@@ -25,6 +25,7 @@ class List
             {
                 Console.WriteLine("Cannot divide by zero");
                 temp.Add(0);
+                continue;
             }
                 if (list2[i] == 0)
                 {
