@@ -14,7 +14,7 @@ class List
             {
                 Console.WriteLine(myList[i]);
             }
-            catch ()
+            catch
             {
                 Console.Write("Error index out of range");
             }
