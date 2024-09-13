@@ -1,0 +1,6 @@
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-classes\0-enemy\obj\Debug\netcoreapp2.1\0-enemy.csproj.AssemblyReference.cache
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-classes\0-enemy\obj\Debug\netcoreapp2.1\0-enemy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-classes\0-enemy\obj\Debug\netcoreapp2.1\0-enemy.AssemblyInfoInputs.cache
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-classes\0-enemy\obj\Debug\netcoreapp2.1\0-enemy.AssemblyInfo.cs
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-classes\0-enemy\obj\Debug\netcoreapp2.1\0-enemy.csproj.CoreCompileInputs.cache
+C:\Users\default.LAPTOP-P6GOO2OC\atlas-csharp\csharp-classes\0-enemy\obj\Debug\netcoreapp2.1\0-enemy.sourcelink.json
