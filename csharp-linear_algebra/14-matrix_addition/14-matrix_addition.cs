@@ -15,12 +15,14 @@ class MatrixMath
         {
             result[0, 0] = -1;
         }
-
-        for (int i = 0; i < rows1; i++)
+        else
         {
-            for (int j = 0; j < cols1; j++)
+            for (int i = 0; i < rows1; i++)
             {
-                result[i, j] = matrix1[i, j] + matrix2[i, j];
+                for (int j = 0; j < cols1; j++)
+                {
+                    result[i, j] = matrix1[i, j] + matrix2[i, j];
+                }
             }
         }
         return result;
