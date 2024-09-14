@@ -9,10 +9,6 @@ class VectorMath
         {
             double[] result = new double[vector.Length]; 
         }
-       else
-       {
-        double[] result = new double[1];
-       }
         
         if (vector.Length < 2 || vector.Length > 3)
         {
