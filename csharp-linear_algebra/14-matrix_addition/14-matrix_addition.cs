@@ -13,7 +13,7 @@ class MatrixMath
          
         if (rows1 != rows2 || cols1 != cols2 || rows1 < 2 || rows1 > 3)
         {
-            double[,] check = new double[rows1, cols1];
+            double[,] check = new double[0, 0];
             check[0, 0] = -1;
             return check;
         }
