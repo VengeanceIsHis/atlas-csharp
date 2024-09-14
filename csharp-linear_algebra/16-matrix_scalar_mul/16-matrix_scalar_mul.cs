@@ -5,13 +5,9 @@ class MatrixMath
 {
     public static double[,] MultiplyScalar(double[,] matrix, double scalar)
     {
-        int rows1 = matrix1.GetLength(0);
-        int cols1 = matrix1.GetLength(1);
-        int rows2 = matrix2.GetLength(0);
-        int cols2 = matrix2.GetLength(1);
-        
-         
-        if (rows1 != rows2 || cols1 != cols2 || rows1 < 2 || rows1 > 3)
+        int rows1 = matrix.GetLength(0);
+        int cols1 = matrix.GetLength(1);  
+        if (rows1 < 2 || rows1 > 3)
         {
             double[,] check = new double[1, 1];
             check[0, 0] = -1;
@@ -24,7 +20,7 @@ class MatrixMath
             {
                 for (int j = 0; j < cols1; j++)
                 {
-                    result[i, j] = matrix1[i, j] * scalar;
+                    result[i, j] = matrix[i, j] * scalar;
                 }
             }
             return result;
