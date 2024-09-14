@@ -5,10 +5,11 @@ class VectorMath
 {
     public static double[] Multiply(double[] vector, double scalar)
     {
-        double[] empty = new double[1];
+        
 
         if (vector.Length == 0)
         {
+            double[] empty = new double[1];
             empty[0] = -1;
             return empty;
         }
