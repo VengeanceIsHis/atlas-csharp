@@ -5,12 +5,9 @@ class VectorMath
 {
     public static double[] Multiply(double[] vector, double scalar)
     {
-        if (vector.Length > 0)
-        {
-            double[] result = new double[vector.Length]; 
-        }
+        double[] result = new double[vector.Length]; 
         
-        if (vector.Length < 2 || vector.Length > 3)
+        if (vector.Length < 2 || vector.Length > 3 || vector.Length == 0)
         {
             result[0] = -1;
         }
