@@ -7,7 +7,7 @@ class MatrixMath
     {
         int rows1 = matrix.GetLength(0);
         int cols1 = matrix.GetLength(1);  
-        if (rows1 < 2 || rows1 > 3)
+        if (cols1 < 2 || cols1 > 3)
         {
             double[,] check = new double[1, 1];
             check[0, 0] = -1;
