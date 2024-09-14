@@ -14,9 +14,9 @@ class VectorMath
 
         else
         {
-            for (int i = 0; i < vector1.Length; i++)
+            for (int i = 0; i < vector.Length; i++)
             {
-                result[i] = Math.Round(vector1[i] * scalar);
+                result[i] = Math.Round(vector[i] * scalar);
             }
         }
         return result;
