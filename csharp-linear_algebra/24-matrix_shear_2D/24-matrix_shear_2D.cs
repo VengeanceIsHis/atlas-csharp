@@ -9,7 +9,7 @@ class MatrixMath
         int rows = matrix.GetLength(0);
         int cols = matrix.GetLength(1);
 
-        if (rows == cols || rows == 2 || direction == "x" || direction == "y")
+        if (rows == cols || rows == 2 || direction == 'x' || direction == 'y')
         {
             shear = new double[2, 2];
             shear[0, 0] = 1;
