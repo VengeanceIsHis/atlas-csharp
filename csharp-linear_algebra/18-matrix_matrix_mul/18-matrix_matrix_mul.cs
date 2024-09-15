@@ -31,5 +31,6 @@ class MatrixMath
                 }
             }
         }
+        return result;
     }
 }
