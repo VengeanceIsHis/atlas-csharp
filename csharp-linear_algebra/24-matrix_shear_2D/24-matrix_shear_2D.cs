@@ -22,8 +22,8 @@ class MatrixMath
             }
             else
             {
-                shear[0, 1] = 0;
-                shear[1, 0] = factor;
+                shear[0, 1] = factor;
+                shear[1, 0] = 0;
             }
 
             result = new double[rows, cols];
