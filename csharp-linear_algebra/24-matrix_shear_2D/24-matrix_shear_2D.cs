@@ -17,8 +17,8 @@ class MatrixMath
             shear[1, 1] = 1;
             if (direction == 'x')
             {
-            shear[0, 1] = factor;
-            shear[1, 0] = 0;
+            shear[0, 1] = 0;
+            shear[1, 0] = factor;
             }
             else
             {
