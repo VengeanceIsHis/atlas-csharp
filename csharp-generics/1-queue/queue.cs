@@ -46,4 +46,9 @@ public class Queue<T>
         count ++;
     }
 
+    public int count()
+    {
+        return this.count;
+    }
+
 }
