@@ -15,6 +15,12 @@ class MatrixMath
         double cosAngle = Math.Cos(angle);
         double sinAngle = Math.Sin(angle);
 
+        double[,] rotation = new double[2, 2]
+        {
+            { cosangle, -sinangle },
+            { sinangle, cosangle}
+        };
+
         double[,] result = new double[rows, cols];
 
         for (int i = 0; i < rows; i++)
