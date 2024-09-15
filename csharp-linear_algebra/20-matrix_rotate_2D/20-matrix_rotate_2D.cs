@@ -19,17 +19,13 @@ class MatrixMath
 
         for (int i = 0; i < rows; i++)
         {
-            for (int j = 0; j < cols; j++)
+            for(int j = 0; j < cols; j++)
             {
-                double value = matrix[i, j];
-                double x = value;
-                double y = 0;
-
-                double newX = cosAngle * x + (-sinAngle) * y;
-                double newY = sinAngle * x + cosAngle * y;
-
-               
-                result[i, j] = newX;
+                result[i, j] = 0;
+                for (int k = 0; k < cols; k++)
+                {
+                    result[i, j] += matrix[i, k] * rotation[k, j];
+                }
             }
         }
 
