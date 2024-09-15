@@ -12,8 +12,8 @@ class MatrixMath
             return new double[,] { { -1 } };  // Return a matrix with -1 if the size is invalid
         }
 
-        double cosAngle = Math.Cos(angle);
-        double sinAngle = Math.Sin(angle);
+        double cosangle = Math.Cos(angle);
+        double sinangle = Math.Sin(angle);
 
         double[,] rotation = new double[2, 2]
         {
