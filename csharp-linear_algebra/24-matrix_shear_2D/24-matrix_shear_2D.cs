@@ -25,7 +25,7 @@ class MatrixMath
                 shear[1, 0] = factor;
             }
 
-            double[,] result = new double[rows1, cols2];
+            double[,] result = new double[rows, cols];
 
             for (int i = 0; i < rows; i++)
             {
