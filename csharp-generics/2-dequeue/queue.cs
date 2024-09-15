@@ -51,4 +51,22 @@ public class Queue<T>
         return this.count;
     }
 
+
+    public T Dequeue()
+    {
+        if (head == null)
+        {
+            Console.WriteLine("Queue is empty");
+            return default(T);
+        }
+        T result = head.value;
+        temp = head;
+        head = head.next;
+        if (head == null)
+        {
+            tail == null;
+        }
+        count--;
+        return value;
+    }
 }
