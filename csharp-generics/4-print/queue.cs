@@ -92,7 +92,7 @@ public class Queue<T>
             while (temp != null)
             {
                 Console.WriteLine(temp.value);
-                temp.next;
+                temp = temp.next;
             }
         }
     }
