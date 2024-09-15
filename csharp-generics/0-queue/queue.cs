@@ -3,7 +3,7 @@ using System;
 
 public class Queue<T>
 {
-    public Type Checktype()
+    public Type CheckType()
     {
         return typeof(T);
     }
