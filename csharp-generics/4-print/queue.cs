@@ -82,14 +82,13 @@ public class Queue<T>
 
     public void Print()
     {
-        Node temp;
-        if (head == null)
+        Node temp = head;
+        if (temp == null)
         {
             Console.WriteLine("Queue is empty");
         }
         else
         {
-            temp = head;
             while (temp != null)
             {
                 Console.WriteLine(temp.value);
