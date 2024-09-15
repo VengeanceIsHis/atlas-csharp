@@ -12,8 +12,8 @@ class MatrixMath
             return new double[,] { { -1 } };
         }
 
-        double cosAngle = Math.Round(Math.Cos(angle));
-        double sinAngle = Math.Round(Math.Sin(angle));
+        double cosAngle = Math.Cos(angle);
+        double sinAngle = Math.Sin(angle);
 
         double[,] result = new double[rows, cols];
 
