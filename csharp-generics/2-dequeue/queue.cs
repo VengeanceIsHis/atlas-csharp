@@ -60,7 +60,6 @@ public class Queue<T>
             return default(T);
         }
         T result = head.value;
-        temp = head;
         head = head.next;
         if (head == null)
         {
