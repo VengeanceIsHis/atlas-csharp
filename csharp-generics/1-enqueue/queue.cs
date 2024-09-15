@@ -43,10 +43,10 @@ public class Queue<T>
         {
             head = newNode;
         }
-        count ++;
+        count++;
     }
 
-    public int count()
+    public override int Count()
     {
         return this.count;
     }
