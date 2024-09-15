@@ -46,7 +46,7 @@ public class Queue<T>
         count++;
     }
 
-    public override int Count()
+    public int Count()
     {
         return this.count;
     }
