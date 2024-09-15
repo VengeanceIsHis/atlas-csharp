@@ -11,7 +11,7 @@ class MatrixMath
         int cols2 = matrix2.GetLength(1);
         
          
-        if (rows1 != rows2 || cols1 != cols2 || rows1 < 2 || rows1 > 3)
+        if (cols1 != rows2)
         {
             double[,] check = new double[1, 1];
             check[0, 0] = -1;
