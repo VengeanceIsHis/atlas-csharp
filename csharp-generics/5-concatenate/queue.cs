@@ -104,7 +104,7 @@ public class Queue<T>
             Console.WriteLine("Queue is empty");
             return null;
         }
-        str result = "";
+        string result = "";
         if (head.value is string || head.value is char)
         {
             Node temp = head;
