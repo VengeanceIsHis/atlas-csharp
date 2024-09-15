@@ -1,30 +1,23 @@
 using System;
 
-
 class MatrixMath
 {
     public static double[,] Rotate2D(double[,] matrix, double angle)
     {
-        double cosangle = Math.Cos(angle);
-        double sinangle = Math.Sin(angle);
-
-        double[,] rotation = new double[2, 2]
-        {
-            { cosangle, -sinangle },
-            { sinangle, cosangle}
-        };
-
         int rows = matrix.GetLength(0);
-        int cols = matrix.GetLength(1);  
-        double[,] result = new double[rows, cols];
-        if (rows != 2 || cols != 2)
+        int cols = matrix.GetLength(1);
+
+        if (rows != cols)
         {
-            double[,] check = new double[1, 1];
-            check[0, 0] = -1;
-            return check;
+            return new double[,] { { -1 } };  // Return a matrix with -1 if the size is invalid
         }
 
-         for (int i = 0; i < rows; i++)
+        double cosAngle = Math.Cos(angle);
+        double sinAngle = Math.Sin(angle);
+
+        double[,] result = new double[rows, cols];
+
+        for (int i = 0; i < rows; i++)
         {
             for (int j = 0; j < cols; j++)
             {
@@ -32,14 +25,10 @@ class MatrixMath
                 double x = value;
                 double y = 0;
 
-                double newX = rotation[0, 0] * x + rotation[0, 1] * y;
-                double newY = rotation[1, 0] * x + rotation[1, 1] * y;
+                double newX = cosAngle * x + (-sinAngle) * y;
+                double newY = sinAngle * x + cosAngle * y;
 
-
-                Console.WriteLine(newX);
-                Console.WriteLine();
-                Console.WriteLine();
-                Console.WriteLine(newY);
+               
                 result[i, j] = newX;
             }
         }
