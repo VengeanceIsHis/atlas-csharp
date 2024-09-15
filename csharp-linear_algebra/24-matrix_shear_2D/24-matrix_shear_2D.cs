@@ -8,13 +8,14 @@ class MatrixMath
         double[,] shear;
         int rows = matrix.GetLength(0);
         int cols = matrix.GetLength(1);
+        double[,] result;
 
         if (rows == cols || rows == 2 || direction == 'x' || direction == 'y')
         {
             shear = new double[2, 2];
             shear[0, 0] = 1;
             shear[1, 1] = 1;
-            if (direction == x)
+            if (direction == 'x')
             {
             shear[0, 1] = factor;
             shear[1, 0] = 0;
@@ -25,7 +26,7 @@ class MatrixMath
                 shear[1, 0] = factor;
             }
 
-            double[,] result = new double[rows, cols];
+            result = new double[rows, cols];
 
             for (int i = 0; i < rows; i++)
             {
