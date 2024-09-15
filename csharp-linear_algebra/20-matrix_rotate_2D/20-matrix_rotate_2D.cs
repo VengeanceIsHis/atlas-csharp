@@ -17,7 +17,7 @@ class MatrixMath
         int rows = matrix.GetLength(0);
         int cols = matrix.GetLength(1);  
         double[,] result = new double[rows, cols];
-        if (rows != 2 || cols != 3)
+        if (rows != 2 || cols != 2)
         {
             double[,] check = new double[1, 1];
             check[0, 0] = -1;
