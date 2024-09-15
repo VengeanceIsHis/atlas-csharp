@@ -15,8 +15,6 @@ class MatrixMath
         {
             double[,] check = new double[1, 1];
             check[0, 0] = -1;
-
-            Console.Write("HII");
             return check;
         }
         
