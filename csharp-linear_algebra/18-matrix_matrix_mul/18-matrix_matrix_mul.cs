@@ -3,7 +3,7 @@ using System;
 
 class MatrixMath
 {
-    public static double[,] Multiply(double[,] martix1, double[,] matrix2)
+    public static double[,] Multiply(double[,] matrix1, double[,] matrix2)
     {
         int rows1 = matrix1.GetLength(0);
         int cols1 = matrix1.GetLength(1);
