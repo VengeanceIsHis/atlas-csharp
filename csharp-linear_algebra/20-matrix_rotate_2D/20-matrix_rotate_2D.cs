@@ -14,9 +14,9 @@ class MatrixMath
             { sinangle, cosangle}
         };
 
-        int rows1 = matrix.GetLength(0);
-        int cols1 = matrix.GetLength(1);  
-        if (cols1 < 2 || cols1 > 3)
+        int rows = matrix.GetLength(0);
+        int cols = matrix.GetLength(1);  
+        if (cols < 2 || cols > 3)
         {
             double[,] check = new double[1, 1];
             check[0, 0] = -1;
