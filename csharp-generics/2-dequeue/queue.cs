@@ -63,9 +63,9 @@ public class Queue<T>
         head = head.next;
         if (head == null)
         {
-            tail == null;
+            tail = null;
         }
         count--;
-        return value;
+        return this.value;
     }
 }
