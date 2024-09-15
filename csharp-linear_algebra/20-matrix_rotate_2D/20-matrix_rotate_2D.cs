@@ -9,29 +9,26 @@ class MatrixMath
 
         if (rows != cols)
         {
-            return new double[,] { { -1 } };  // Return a matrix with -1 if the size is invalid
+            return new double[,] { { -1 } };
         }
 
-        double cosangle = Math.Round(Math.Cos(angle));
-        double sinangle = Math.Round(Math.Sin(angle));
-
-        double[,] rotation = new double[2, 2]
-        {
-            { cosangle, -sinangle },
-            { sinangle, cosangle}
-        };
+        double cosAngle = Math.Round(Math.Cos(angle));
+        double sinAngle = Math.Round(Math.Sin(angle));
 
         double[,] result = new double[rows, cols];
 
         for (int i = 0; i < rows; i++)
         {
-            for(int j = 0; j < cols; j++)
+            for (int j = 0; j < cols; j++)
             {
-                result[i, j] = 0;
-                for (int k = 0; k < cols; k++)
-                {
-                    result[i, j] += matrix[i, k] * rotation[k, j];
-                }
+                double x = matrix[i, j];
+                double y = 0;
+
+                double newX = cosAngle * x - sinAngle * y;
+                double newY = sinAngle * x + cosAngle * y;
+
+                
+                result[i, j] = newX;
             }
         }
 
