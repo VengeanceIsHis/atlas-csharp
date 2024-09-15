@@ -111,9 +111,10 @@ public class Queue<T>
             while (temp != null)
             {
                 result += temp.value;
-                if (temp.next != null )
+                if (temp.next != null && temp.value is string)
                 {
-                    result += "  ";
+
+                    result += " ";
                 }
                 
             
