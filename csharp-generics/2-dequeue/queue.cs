@@ -66,6 +66,6 @@ public class Queue<T>
             tail = null;
         }
         count--;
-        return this.value;
+        return result;
     }
 }
