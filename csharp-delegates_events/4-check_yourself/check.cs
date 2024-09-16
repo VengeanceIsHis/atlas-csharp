@@ -23,7 +23,7 @@ public class Player
             }
         }
     }
-    public Player(string name="Player", float maxHp=100f, float newHp)
+    public Player(float newHp, string name="Player", float maxHp=100f)
     {
         if (maxHp < 0)
         {
