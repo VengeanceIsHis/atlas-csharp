@@ -7,8 +7,8 @@ public class Player
     private float maxHp;
     private float hp;
     private string status;
-     public delegate void CalculateHealth(float number);
-
+    public delegate void CalculateHealth(float number);
+    public event EventHandler<CurrentHPArgs> HPCheck;
 
     public float Hp
     {
@@ -112,26 +112,28 @@ public class Player
         }
     }
 
-    public event EventHandler<CurrentHPArgs> HPCheck;
+    
 
     private void CheckStatus(object sender, CurrentHPArgs e)
     {
-        if (e == this.maxHp)
+        Player player = (Player)sender;
+        float currentHP = e.CurrentHp;
+        if (e.currentHp == this.maxHp)
         {
             this.status = $"{this.name} is in perfect health!";
             Console.WriteLine(this.status);
         }
-        else if (e >= this.maxHp / 2)
+        else if (currentHP == this.maxHp / 2)
         {
             this.status = $"{this.name} is doing well!";
             Console.WriteLine(this.status);
         }
-        else if (e >= this.maxHp / 4 && e < this.maxHp / 2)
+        else if (currentHP == this.maxHp / 4 && currentHP == player.maxHp / 2)
         {
             this.status = $"{this.name} isn't doing too great...";
             Console.WriteLine(this.status);
         }
-        else if (e > 0 && e < this.math / 4)
+        else if (currentHP > 0 && currentHP < this.math / 4)
         {
             this.status = $"{this.name} needs help!";
             Console.WriteLine(this.status);
