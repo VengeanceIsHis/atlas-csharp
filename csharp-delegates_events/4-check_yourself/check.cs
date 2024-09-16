@@ -115,7 +115,7 @@ public class Player
 
     private void CheckStatus(object sender, CurrentHPArgs e)
     {
-
+        Console.WriteLine(e.currentHp);
         if (e.currentHp == this.maxHp)
         {
             this.status = $"{this.name} is in perfect health!";
