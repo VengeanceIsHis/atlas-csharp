@@ -74,8 +74,8 @@ public class Player
         {
             float newHp = this.hp;
             newHp += heal;
-            ValidateHP(newHp);
             Console.WriteLine($"{this.name} heals {heal} HP!");
+            ValidateHP(newHp);
         }
     }
     
