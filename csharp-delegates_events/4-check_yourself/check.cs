@@ -136,9 +136,9 @@ public class Player
             this.status = $"{this.name} needs help!";
             Console.WriteLine(this.status);
         }
-        else
+        else if (e.cuurentHp == 0)
         {
-            this.status = $"{this.name} is knHIIIIIIocked out!";
+            this.status = $"{this.name} is knocked out!";
             Console.WriteLine(this.status);
         }
     }
