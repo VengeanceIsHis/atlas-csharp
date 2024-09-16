@@ -9,7 +9,7 @@ public class Player
     public float maxHp { get; private set; }
     public float hp { get; private set; }
 
-    public Player(string name, float maxHp)
+    public Player(string name, float maxHp=100f)
     {
         this.name = name;
         this.maxHp = maxHp;
