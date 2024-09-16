@@ -38,7 +38,6 @@ public class Player
         this.hp = this.maxHp;
         this.status = $"{this.name} is ready to go!";
         HPCheck += CheckStatus;
-        this.currentHp = newHp;
     }
 
     public void PrintHealth()
@@ -123,17 +122,17 @@ public class Player
             this.status = $"{this.name} is in perfect health!";
             Console.WriteLine(this.status);
         }
-        else if (currentHP == this.maxHp / 2)
+        else if (e.currentHp == this.maxHp / 2)
         {
             this.status = $"{this.name} is doing well!";
             Console.WriteLine(this.status);
         }
-        else if (currentHP == this.maxHp / 4 && currentHP == player.maxHp / 2)
+        else if (e.currentHp == this.maxHp / 4 && currentHP == player.maxHp / 2)
         {
             this.status = $"{this.name} isn't doing too great...";
             Console.WriteLine(this.status);
         }
-        else if (currentHP > 0 && currentHP < this.maxp / 4)
+        else if (e.currentHp > 0 && e.currentHp < this.maxHp / 4)
         {
             this.status = $"{this.name} needs help!";
             Console.WriteLine(this.status);
