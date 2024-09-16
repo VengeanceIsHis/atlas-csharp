@@ -88,7 +88,7 @@ public enum Modifier
     Base,
     Strong
 }
-public delegate float Calculate Modifier(float baseBalue, Modifier modifier);
+public delegate float CalculateModifier(float baseBalue, Modifier modifier);
 
 
 public float ApplyModifier(float baseValue, Modifier modifier)
