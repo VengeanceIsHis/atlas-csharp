@@ -9,8 +9,17 @@ public class Player()
 
     public Player(string name, float maxHp)
     {
-        name = name;
-        maxHp = 100f;
-        hp = maxHp;
+        this.name = name;
+        this.maxHp = maxHp;
+        if (this.maxHp < 0)
+        {
+            this.maxHp = 100f;
+        }
+        this.hp = maxHp;
+    }
+
+    public void PrintHealth()
+    {
+        Console.WriteLine($"<this.name> has <this.hp> / <this.maxHp> health");
     }
 }
