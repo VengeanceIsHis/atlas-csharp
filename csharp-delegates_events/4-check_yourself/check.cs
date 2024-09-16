@@ -7,6 +7,7 @@ public class Player
     private float maxHp;
     private float hp;
     private string status;
+    public float currentHp;
     public delegate void CalculateHealth(float number);
     public event EventHandler<CurrentHPArgs> HPCheck;
 
@@ -22,7 +23,7 @@ public class Player
             }
         }
     }
-    public Player(string name="Player", float maxHp=100f)
+    public Player(string name="Player", float maxHp=100f, float newHp)
     {
         if (maxHp < 0)
         {
@@ -38,6 +39,7 @@ public class Player
         this.hp = this.maxHp;
         this.status = $"{this.name} is ready to go!";
         HPCheck += CheckStatus;
+        this.currentHp = newHp;
     }
 
     public void PrintHealth()
