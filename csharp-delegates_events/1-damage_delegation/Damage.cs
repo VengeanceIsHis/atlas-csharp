@@ -32,10 +32,14 @@ public class Player
 
     public void TakeDamage(float damage)
     {
-        Console.WriteLine($"{this.name} takes {damage} damage!");
+        
         if (damage < 0)
         {
             Console.WriteLine($"{this.name} takes 0 damage!");
+        }
+        else
+        {
+            Console.WriteLine($"{this.name} takes {damage} damage!");
         }
     }
 
