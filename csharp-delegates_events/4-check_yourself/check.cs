@@ -7,6 +7,7 @@ public class Player
     private float maxHp;
     private float hp;
     private string status;
+     public delegate void CalculateHealth(float number);
 
     public Player(string name="Player", float maxHp=100f)
     {
@@ -23,6 +24,7 @@ public class Player
 
         this.hp = this.maxHp;
         this.status = $"{this.name} is ready to go!";
+        HPCheck += CheckStatus;
     }
 
     public void PrintHealth()
@@ -30,7 +32,7 @@ public class Player
         Console.WriteLine($"{this.name} has {this.hp} / {this.maxHp} health");
     }
 
-    public delegate void CalculateHealth(float number);
+   
 
     public void TakeDamage(float damage)
     {
@@ -96,7 +98,7 @@ public class Player
         }
     }
 
-    public event CurrentHPArgs HPCheck;
+    public event EventHandler<CurrentHPArgs> HPCheck;
 
     private void CheckStatus(object sender, CurrentHPArgs e)
     {
