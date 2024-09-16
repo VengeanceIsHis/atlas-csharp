@@ -86,9 +86,11 @@ public class Player
             case Modifier.Weak:
                 return baseValue * .5f;
             case Modifier.Base:
-             return baseValue;
-        case Modifier.Strong:
-            return baseValue * 1.5f;
+                return baseValue;
+            case Modifier.Strong:
+                return baseValue * 1.5f;
+            default:
+                return baseValue;
     }
 }
 }
