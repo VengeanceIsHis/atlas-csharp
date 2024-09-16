@@ -3,7 +3,7 @@ using System;
 
 public class Player
 {
-    public string name { get; private set; }
+    public string name { get; set; }
     public float maxHp { get; private set; }
     public float hp { get; private set; }
 
