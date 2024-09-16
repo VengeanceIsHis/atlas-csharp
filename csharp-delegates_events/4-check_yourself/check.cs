@@ -56,7 +56,6 @@ public class Player
         }
         else
         {
-
             float newHp = this.hp;
             newHp -= damage;
             ValidateHP(newHp);
@@ -139,7 +138,7 @@ public class Player
         }
         else
         {
-            this.status = $"{this.name} is knocked out!";
+            this.status = $"{this.name} is knHIIIIIIocked out!";
             Console.WriteLine(this.status);
         }
     }
