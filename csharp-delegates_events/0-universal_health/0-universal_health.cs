@@ -1,7 +1,9 @@
 using System;
 
 
-public class Player()
+
+
+public class Player
 {
     public string name { get; private set; }
     public float maxHp { get; private set; }
@@ -15,11 +17,11 @@ public class Player()
         {
             this.maxHp = 100f;
         }
-        this.hp = maxHp;
+        this.hp = this.maxHp;
     }
 
     public void PrintHealth()
     {
-        Console.WriteLine($"<this.name> has <this.hp> / <this.maxHp> health");
+        Console.WriteLine($"{this.name} has {this.hp} / {this.maxHp} health");
     }
 }
