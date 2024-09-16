@@ -9,7 +9,7 @@ public class Player
     public float maxHp { get; private set; }
     public float hp { get; private set; }
 
-    public Player(string name=Player, float maxHp=100f)
+    public Player(string name="Player", float maxHp=100f)
     {
         if (maxHp < 0)
         {
