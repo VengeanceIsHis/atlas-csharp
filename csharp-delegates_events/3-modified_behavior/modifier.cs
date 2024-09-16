@@ -78,6 +78,19 @@ public class Player
             this.hp = newHp;
         }
     }
+
+    public float ApplyModifier(float baseValue, Modifier modifier)
+    {
+        switch (modifier)
+        {
+            case Modifier.Weak:
+                return baseValue * .5f;
+            case Modifier.Base:
+             return baseValue;
+        case Modifier.Strong:
+            return baseValue * 1.5f;
+    }
+}
 }
 
 
@@ -91,15 +104,3 @@ public enum Modifier
 public delegate float CalculateModifier(float baseBalue, Modifier modifier);
 
 
-public float ApplyModifier(float baseValue, Modifier modifier)
-{
-    switch (modifier)
-    {
-        case Modifier.Weak:
-            return baseValue * .5f;
-        case Modifier.Base:
-            return baseValue;
-        case Modifier.Strong:
-            return baseValue * 1.5f;
-    }
-}
