@@ -6,6 +6,7 @@ public class Player
     private string name;
     private float maxHp;
     private float hp;
+    private string status;
 
     public Player(string name="Player", float maxHp=100f)
     {
@@ -21,6 +22,7 @@ public class Player
         this.name = name;
 
         this.hp = this.maxHp;
+        this.status = $"{this.name} is ready to go!";
     }
 
     public void PrintHealth()
@@ -91,8 +93,40 @@ public class Player
                 return baseValue * 1.5f;
             default:
                 return baseValue;
+        }
     }
-}
+
+    public event CurrentHPArgs HPCheck;
+
+    private void CheckStatus(object sender, CurrentHPArgs e)
+    {
+        if (e == this.maxHp)
+        {
+            this.status = $"{this.name} is in perfect health!";
+            Console.WriteLine(this.status);
+        }
+        else if (e >= this.maxHp / 2)
+        {
+            this.status = $"{this.name} is doing well!";
+            Console.WriteLine(this.status);
+        }
+        else if (e >= this.maxHp / 4 && e < this.maxHp / 2)
+        {
+            this.status = $"{this.name} isn't doing too great...";
+            Console.WriteLine(this.status);
+        }
+        else if (e > 0 && e < this.math / 4)
+        {
+            this.status = $"{this.name} needs help!";
+            Console.WriteLine(this.status);
+        }
+        else
+        {
+            this.status = $"{this.name} is knocked out!";
+            Console.WriteLine(this.status);
+        }
+    }
+
 }
 
 
@@ -104,3 +138,16 @@ public enum Modifier
     Strong
 }
 public delegate float CalculateModifier(float baseBalue, Modifier modifier);
+
+
+
+
+public class CurrentHPArgs(EventArgs)
+{
+    public float currentHp { get; private set; }
+
+    public CurrentHPArgs(float newHp)
+    {
+        this.currentHp = newHp;
+    }
+}
