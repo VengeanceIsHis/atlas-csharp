@@ -9,6 +9,19 @@ public class Player
     private string status;
      public delegate void CalculateHealth(float number);
 
+
+    public float Hp
+    {
+        get { return hp; }
+        set
+        {
+            if (hp != value)
+            {
+                hp = value;
+                OnHPCheck(new CurrentHPArgs(hp));
+            }
+        }
+    }
     public Player(string name="Player", float maxHp=100f)
     {
         if (maxHp < 0)
@@ -81,6 +94,7 @@ public class Player
         {
             this.hp = newHp;
         }
+        OnHPCheck(new CurrentHPArgs(this.hp));
     }
 
     public float ApplyModifier(float baseValue, Modifier modifier)
@@ -129,6 +143,11 @@ public class Player
         }
     }
 
+
+    protected virtual void OnHPCheck(CurrentHPArgs e)
+    {
+        HPCheck?.Invoke(this, e);
+    }
 }
 
 
