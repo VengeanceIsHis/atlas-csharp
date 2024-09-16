@@ -116,17 +116,18 @@ public class Player
     private void CheckStatus(object sender, CurrentHPArgs e)
     {
         Console.WriteLine(e.currentHp);
+        Console
         if (e.currentHp == this.maxHp)
         {
             this.status = $"{this.name} is in perfect health!";
             Console.WriteLine(this.status);
         }
-        else if (e.currentHp == this.maxHp / 2)
+        else if (e.currentHp >= this.maxHp / 2)
         {
             this.status = $"{this.name} is doing well!";
             Console.WriteLine(this.status);
         }
-        else if (e.currentHp == this.maxHp / 4 && e.currentHp == this.maxHp / 2)
+        else if (e.currentHp >= this.maxHp / 4 && e.currentHp > this.maxHp / 2)
         {
             this.status = $"{this.name} isn't doing too great...";
             Console.WriteLine(this.status);
