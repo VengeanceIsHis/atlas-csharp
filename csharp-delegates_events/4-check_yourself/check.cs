@@ -58,8 +58,9 @@ public class Player
         {
             float newHp = this.hp;
             newHp -= damage;
-            ValidateHP(newHp);
             Console.WriteLine($"{this.name} takes {damage} damage!");
+            ValidateHP(newHp);
+            
         }
     }
 
