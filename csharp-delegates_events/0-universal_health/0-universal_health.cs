@@ -3,9 +3,9 @@ using System;
 
 public class Player
 {
-    public string name { get; set; }
-    public float maxHp { get; set; }
-    public float hp { get; private set; }
+    private string name;
+    private float maxHp;
+    private float hp;
 
     public Player(string name="Player", float maxHp=100f)
     {
