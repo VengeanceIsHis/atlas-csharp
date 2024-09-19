@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0HMdJNL0iIs=",
+  "dgSpecHash": "w2wUMqwAtgw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\default.LAPTOP-P6GOO2OC\\atlas-csharp\\csharp-text_based_interface\\InventoryLibrary\\InventoryManagement.Tests\\InventoryManagement.Tests.csproj",
+  "projectFilePath": "C:\\Users\\default.LAPTOP-P6GOO2OC\\atlas-csharp\\csharp-text_based_interface\\InventoryManagement.Tests\\InventoryManagement.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\default.LAPTOP-P6GOO2OC\\.nuget\\packages\\microsoft.codecoverage\\17.10.0\\microsoft.codecoverage.17.10.0.nupkg.sha512",
     "C:\\Users\\default.LAPTOP-P6GOO2OC\\.nuget\\packages\\microsoft.net.test.sdk\\17.10.0\\microsoft.net.test.sdk.17.10.0.nupkg.sha512",
