@@ -3,6 +3,10 @@ using System;
 
 public class User : BaseClass
 {
-    public string name { get; private set }
-    public i
+    public string name { get; set; }
+
+    public User(string name)
+    {
+        this.name = name;
+    }
 }
