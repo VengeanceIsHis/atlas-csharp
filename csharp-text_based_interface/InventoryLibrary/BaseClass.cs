@@ -10,13 +10,13 @@ public class BaseClass
     public BaseClass()
     {
         this.id = Guid.NewGuid().ToString();
-        this.datecreated = DateTime.UtcNow;
-        this.dateupdated = DateTime.UtcNow;
+        this.date_created = DateTime.UtcNow;
+        this.date_updated = DateTime.UtcNow;
     }
 
     public void Update()
     {
-        this.dateupdated = DateTime.UtcNow;
+        this.date_updated = DateTime.UtcNow;
     }
 }
 }
