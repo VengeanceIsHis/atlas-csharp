@@ -15,7 +15,7 @@ public class Tests
     {
         _user = new User("Charlie Day");
         _item = new Item("556");
-        _inventory = new Inventory(_user.id, _item.id)
+        _inventory = new Inventory(_user.id, _item.id);
     }
 
     [Test]
