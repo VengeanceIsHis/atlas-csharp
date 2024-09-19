@@ -1,6 +1,7 @@
 using System;
 
-
+namespace InventoryLibrary
+{
 public class Item : BaseClass
 {
     public string name { get; set; }
@@ -9,4 +10,5 @@ public class Item : BaseClass
     {
         this.name = name;
     }
+}
 }

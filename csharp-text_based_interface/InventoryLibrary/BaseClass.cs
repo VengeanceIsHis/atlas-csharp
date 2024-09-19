@@ -1,4 +1,5 @@
-﻿namespace InventoryLibrary;
+﻿namespace InventoryLibrary
+{
 
 public class BaseClass
 {
@@ -17,4 +18,5 @@ public class BaseClass
     {
         this.dateupdated = DateTime.UtcNow;
     }
+}
 }

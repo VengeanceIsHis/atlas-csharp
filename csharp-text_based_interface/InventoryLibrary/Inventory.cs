@@ -1,6 +1,7 @@
 using System;
 
-
+namespace InventoryLibrary
+{
 public class Inventory : BaseClass
 {
     public string user_id { get; set; }
@@ -21,4 +22,5 @@ public class Inventory : BaseClass
         this.quantity = quantity;
         }
     }
+}
 }
