@@ -8,7 +8,10 @@ public class Item : BaseClass
 
     public Item(string name)
     {
-        this.name = name;
+        if (name != null && name != "")
+        {
+            this.name = name;
+        }
     }
 }
 }
