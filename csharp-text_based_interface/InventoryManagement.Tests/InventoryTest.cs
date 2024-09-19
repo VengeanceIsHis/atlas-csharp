@@ -7,9 +7,9 @@ namespace InventoryManagement.Tests
 
 public class Tests
 {
-    private User _user;
-    private Item _item;
-    private Inventory _inventory;
+    private User? _user;
+    private Item? _item;
+    private Inventory? _inventory;
 
     [SetUp]
     public void Setup()
