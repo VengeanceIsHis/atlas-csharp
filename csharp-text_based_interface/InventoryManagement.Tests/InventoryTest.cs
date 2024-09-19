@@ -16,7 +16,7 @@ public class Tests
     public void Test1()
     {
         var user = new User("Charlie Day");
-        Assert.AreEqual("Charlie Day", user.name);
+        ClassicAssert.AreEqual("Charlie Day", user.name);
     }
 }
 }
