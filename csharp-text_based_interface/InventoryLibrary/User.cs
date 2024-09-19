@@ -8,7 +8,7 @@ public class User : BaseClass
 
     public User(string name)
     {
-        if (string.NullOrEmpty(name))
+        if (name == null || name == "")
         {
             throw new ArgumentException("Invalid name format.");
         }
