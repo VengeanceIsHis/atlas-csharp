@@ -2,7 +2,8 @@ using NUnit.Framework;
 using InventoryLibrary;
 
 
-namespace InventoryManagement.Tests;
+namespace InventoryManagement.Tests
+{
 
 public class Tests
 {
@@ -23,4 +24,5 @@ public class Tests
     {
         Assert.Equal("Charlie Day", _user.name);
     }
+}
 }
