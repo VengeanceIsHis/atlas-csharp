@@ -22,7 +22,7 @@ public class Tests
     [Test]
     public void Test1()
     {
-        Assert.AreEqual("Charlie Day", _user.name);
+        Assert.That(_user.name, Is.EqualTo("Charlier Day"));
     }
 }
 }
