@@ -15,7 +15,7 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
     <Reference Include="nunit.framework">
         <HintPath>libs\nunit.framework.dll</HintPath>
-    </reference>
+    </Reference>
 
   </ItemGroup>
 
