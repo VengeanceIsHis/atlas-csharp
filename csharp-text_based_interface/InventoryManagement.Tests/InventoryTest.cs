@@ -14,7 +14,7 @@ public class Tests
     [SetUp]
     public void Setup()
     {
-        _user = new User("Charlie Day");
+        var user = new User("Charlie Day");
         _item = new Item("556");
         _inventory = new Inventory(_user.id, _item.id);
     }
@@ -22,7 +22,7 @@ public class Tests
     [Test]
     public void Test1()
     {
-        Assert.That(_user.name, Is.EqualTo("Charlier Day"));
+        Assert.That(user.name, Is.EqualTo("Charlie Day"));
     }
 }
 }
