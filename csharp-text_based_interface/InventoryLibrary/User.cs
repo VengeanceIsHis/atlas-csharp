@@ -8,10 +8,6 @@ public class User : BaseClass
 
     public User(string name)
     {
-        if (name == null || name == "")
-        {
-            throw new ArgumentException("Invalid name format.");
-        }
         this.name = name;
     }
 }

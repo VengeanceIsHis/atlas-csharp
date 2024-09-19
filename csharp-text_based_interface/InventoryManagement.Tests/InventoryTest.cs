@@ -19,12 +19,12 @@ public class Tests
         Assert.That(user.name, Is.EqualTo("Charlie Day"));
     }
     [Test]
-    public void NumericUser()
+    public void WrongType()
     {
         var user = new User(46);
-        Assert.That(user.name, Is.EqualTo("Charlie Day"));
+        Assert.That(user.name, Is.EqualTo("46"));
     }
     [Test]
-    public void Mass
+    public void 
 }
 }
