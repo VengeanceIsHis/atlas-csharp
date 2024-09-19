@@ -13,10 +13,18 @@ public class Tests
     }
 
     [Test]
-    public void Test1()
+    public void SuccesfulUser()
     {
         var user = new User("Charlie Day");
         Assert.That(user.name, Is.EqualTo("Charlie Day"));
     }
+    [Test]
+    public void NumericUser()
+    {
+        var user = new User(46);
+        Assert.That(user.name, Is.EqualTo("Charlie Day"));
+    }
+    [Test]
+    public void Mass
 }
 }

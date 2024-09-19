@@ -8,6 +8,10 @@ public class User : BaseClass
 
     public User(string name)
     {
+        if (string.NullOrEmpty(name))
+        {
+            throw new ArgumentException("Invalid name format.");
+        }
         this.name = name;
     }
 }
